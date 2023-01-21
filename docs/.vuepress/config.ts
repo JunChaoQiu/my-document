@@ -9,9 +9,7 @@
 import { defineUserConfig } from '@vuepress/cli'
 import { defaultTheme } from '@vuepress/theme-default'
 import { navbarZh, sidebarZh } from './configs'
-const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
-import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 
 
@@ -89,12 +87,6 @@ export default defineUserConfig({
           },
         },
       },
-    }),
-    sitemapPlugin({
-      hostname: "https://qiuxc.cn",
-    }),
-    googleAnalyticsPlugin({
-      id: 'G-KEP9J329HR'
     }),
   ],
 

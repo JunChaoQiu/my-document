@@ -8,8 +8,6 @@ features:
     details: 记录日常工作中的踩坑之路
 actions:
 - text: Go ➡️
-  link: /frontend/javascript/es6+.md
+  link: /backend/c++/basic.md
   type: primary
-footerHtml: true
-footer: <div class="copyright"> <p><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">豫ICP备20012641号-1</a></p></div>
 ---

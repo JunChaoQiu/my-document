@@ -13,9 +13,7 @@ export const sidebarZh: SidebarConfig = {
 		{
 			text: 'C++',
 			collapsible: true,
-			children: [
-				'/backend/c++/basic.md',
-			],
+			children: ['/backend/c++/basic.md', '/backend/c++/tip.md']
 		},
 		{
 			text: 'Python',
@@ -31,16 +29,13 @@ export const sidebarZh: SidebarConfig = {
 				'/backend/python/08_format.md',
 				'/backend/python/09_encode_decode.md',
 				'/backend/python/venv.md',
-				'/backend/python/decorators.md',
-			],
+				'/backend/python/decorators.md'
+			]
 		},
 		{
 			text: 'Java',
 			collapsible: true,
-			children: [
-				'/backend/java/basic.md',
-				'/backend/java/oop.md',
-			],
-		},
-	],
+			children: ['/backend/java/basic.md', '/backend/java/oop.md']
+		}
+	]
 }

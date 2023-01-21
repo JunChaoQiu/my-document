@@ -13,7 +13,7 @@ export const sidebarZh: SidebarConfig = {
 		{
 			text: 'C++',
 			collapsible: true,
-			children: ['/backend/c++/basic.md', '/backend/c++/tip.md']
+			children: ['/backend/c++/tip.md', '/backend/c++/basic.md', ]
 		},
 		{
 			text: 'Python',

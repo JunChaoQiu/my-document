@@ -15,3 +15,19 @@
 0-0=0；1-0=1；1-1=0；0-1=1；
 
 3、乘法：0 * 0= 0；1 * 0= 0；1 * 1 = 1；
+
+## c++简单的输入输出
+
+```c++
+# include <iostream>
+using namespace std;
+int main()
+{int a,b,c;
+cin>>a>>b;
+c=a+b;
+cout<<c;
+return 0;
+}
+
+
+```

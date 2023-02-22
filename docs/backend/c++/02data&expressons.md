@@ -1,7 +1,7 @@
 # 数据类型与表达式
 ## 1、c++的基本数据类型
 
-![introduce](images/02.jpg)
+![introduce](./images/02.jpg)
 
 ## 2、常量和变量
 

@@ -2,7 +2,7 @@
 
 ## 一、基本的Linux命令学习
 
-![introduce](../c++/images/easyLinux.jpg)
+![introduce](../images/easyLinux.jpg)
 
 ## 二、将代码推到本地再推到远端
 

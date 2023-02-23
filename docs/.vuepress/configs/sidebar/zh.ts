@@ -13,12 +13,17 @@ export const sidebarZh: SidebarConfig = {
 		{
 			text: 'C++',
 			collapsible: true,
-			children: ['/backend/c++/tip.md', '/backend/c++/basic.md', '/backend/c++/git/git.md']
+			children: [
+				'/backend/c++/tip.md',
+				'/backend/c++/basic.md',
+				'/backend/c++/02data&expressons.md'
+			]
 		},
 		{
 			text: 'Python',
 			collapsible: true,
-			children: ['/backend/python/pyhomework/1.md
+			children: [
+				'/backend/python/pyhomework/1.md',
 				'/backend/python/01_str_num.md',
 				'/backend/python/02_list_for.md',
 				'/backend/python/03_if.md',
@@ -36,6 +41,15 @@ export const sidebarZh: SidebarConfig = {
 			text: 'Java',
 			collapsible: true,
 			children: ['/backend/java/basic.md', '/backend/java/oop.md']
+		}
+	],
+	'/tools/': [
+		{
+			text: 'Git',
+			collapsible: true,
+			children: [
+				'/tools/git/git.md',
+			]
 		}
 	]
 }

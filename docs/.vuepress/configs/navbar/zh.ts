@@ -26,4 +26,14 @@ export const navbarZh: NavbarConfig = [
 			},
 		],
 	},
+	{
+		text: '工具',
+		children: [
+			{
+				text: 'Git',
+				link: '/tools/git/git.md',
+			},
+		],
+	},
 ]
+

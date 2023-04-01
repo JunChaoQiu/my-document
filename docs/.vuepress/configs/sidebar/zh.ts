@@ -11,6 +11,11 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const sidebarZh: SidebarConfig = {
 	'/backend/': [
 		{
+			text: 'leetcode',
+			collapsible: true,
+			children: ['/backend/leetcode/t1.md']
+		},
+		{
 			text: 'C++',
 			collapsible: true,
 			children: [
@@ -47,9 +52,7 @@ export const sidebarZh: SidebarConfig = {
 		{
 			text: 'Git',
 			collapsible: true,
-			children: [
-				'/tools/git/git.md',
-			]
+			children: ['/tools/git/git.md']
 		}
 	]
 }

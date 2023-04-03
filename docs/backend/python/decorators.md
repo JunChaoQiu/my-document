@@ -35,7 +35,6 @@ def func(arg1, arg2, ...):
 func = decomaker(argA, argB, ...)(func)
 ```
 
-
 下面的例子分别演示了注解的这几种使用情况：
 
 - 不带参数单次使用
@@ -218,4 +217,3 @@ nd['age'] = 22
 print(nd1)
 
 # {'name': 'qiuxc', 'age': 22}
-```

@@ -31,6 +31,7 @@ print(dimesions[1])
 虽然不能修改元组的元素，但可以给存储元组的变量赋值
 
 ```python
+
 dimensions = (400,100)
 print("Modified dimensions:")
 for dimension in dimensions:
@@ -38,6 +39,7 @@ for dimension in dimensions:
 # Original dimensions:
 # 200
 # 50
+
 ```
 
 ## 设置代码格式

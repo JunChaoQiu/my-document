@@ -15,7 +15,9 @@ $ python3 -m venv ./venv
 激活该虚拟环境：
 
 ```sh
+
 $ source ./venv/bin/activate
+
 ```
 
 当虚拟环境处于有效状态时，shell 提示符带有 `(venv)` 前缀。
